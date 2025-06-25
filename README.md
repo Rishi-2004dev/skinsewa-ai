@@ -1,6 +1,6 @@
 # SkinSeva.ai — AI-Powered Skin Disease Detection
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-skinsewaweb.web.app-brightgreen?style=flat-square&logo=google-chrome a modern web application that leverages artificial intelligence for early, accessible, and accurate detection of common skin diseases from facial images. Designed for telemedicine, clinics, outreach, and research, SkinSeva.ai empowers healthcare professionals and patients with instant, AI-driven diagnostics.
+**SkinSeva.ai** is a modern web application that leverages artificial intelligence for early, accessible, and accurate detection of common skin diseases from facial images. Designed for telemedicine, clinics, outreach, and research, SkinSeva.ai empowers healthcare professionals and patients with instant, AI-driven diagnostics.
 
 Access the live application here:  
 👉 [https://skinsewaweb.web.app/](https://skinsewaweb.web.app/)
@@ -46,5 +46,20 @@ Contributions are welcome!
 
 1. **Fork** this repository.
 2. **Create a feature branch:**
-   ```bash
-   git checkout -b feature/your-feature
+3. **Commit your changes with clear messages.**
+4. **Push to your fork and open a Pull Request.**
+
+For collaborative visual editing, visit the [Lovable.dev project page](https://lovable.dev/projects/2b545cd9-084a-4c62-8c8f-9b5c078bf4cb).
+
+## License
+
+This project is licensed under the [Apache 2.0 License](LICENSE).
+
+## Acknowledgments
+
+- Dermatology datasets: DermNet, HAM10000, and others
+- Open-source AI and web communities
+- [Lovable.dev](https://lovable.dev/) for rapid prototyping and collaboration tools
+
+<p align="center"><em>SkinSeva.ai — Advancing accessible and accurate skin health diagnostics through artificial intelligence.</em></p>
+

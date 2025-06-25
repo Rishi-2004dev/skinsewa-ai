@@ -1,6 +1,4 @@
 # Skinsewa.ai
-
-summary
 SkinSeva is an AI-powered web app for skin disease detection, using CNN and ResNet models to analyze selfies. Features include multilingual support, AI chatbot, patient reports, image validation, and clinic referrals for accessible dermatological care.
 
 **URL**: https://lovable.dev/projects/2b545cd9-084a-4c62-8c8f-9b5c078bf4cb

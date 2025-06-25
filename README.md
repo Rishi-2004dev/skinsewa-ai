@@ -1,72 +1,78 @@
-# Skinsewa.ai
-SkinSeva is an AI-powered web app for skin disease detection, using CNN and ResNet models to analyze selfies. Features include multilingual support, AI chatbot, patient reports, image validation, and clinic referrals for accessible dermatological care.
+SkinSeva.ai — AI-Powered Skin Disease Detection
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-skinsewaweb.web.app-brightgreen?style=flat-square&logo=google-chrome a modern web application that leverages artificial intelligence for early, accessible, and accurate detection of common skin diseases from facial images. Designed for telemedicine, clinics, outreach, and research, SkinSeva.ai empowers healthcare professionals and patients with instant, AI-driven diagnostics.
 
-**URL**: https://lovable.dev/projects/2b545cd9-084a-4c62-8c8f-9b5c078bf4cb
+Access the live application here:
+👉 https://skinsewaweb.web.app/
 
-## How can I edit this code?
+Screenshots
+<p align="center"> <img src="https://skinsewaweb.web.app/screenshot1.png" alt="SkinSeva.ai Home" width="600"/> <br> <em>Home page with image upload interface</em> </p> <p align="center"> <img src="https://skinsewaweb.web.app/screenshot2.png" alt="SkinSeva.ai Prediction" width="600"/> <br> <em>Example of AI-powered skin disease prediction result</em> </p>
+Replace the above image URLs with your actual screenshots for best results.
 
-There are several ways of editing your application.
+Features
+AI-Powered Diagnosis: Upload a facial image to receive instant, multi-class skin disease predictions.
 
-**Use Lovable**
+User-Friendly Interface: Clean, intuitive design for patients and healthcare providers.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2b545cd9-084a-4c62-8c8f-9b5c078bf4cb) and start prompting.
+Multi-Disease Detection: Supports acne, eczema, psoriasis, vitiligo, melanoma, and more.
 
-Changes made via Lovable will be committed automatically to this repo.
+Privacy-Focused: No personal data is stored; all predictions are processed securely.
 
-**Use your preferred IDE**
+Web-Based: No installation required; works on all modern browsers.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Getting Started
+Access the Application
+Visit: https://skinsewaweb.web.app/
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+How to Use
+Upload Image: Click the upload button and select a clear image of the affected skin area.
 
-Follow these steps:
+View Results: The AI model analyzes the image and displays the predicted skin condition with a confidence score.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Repeat: Upload more images as needed for additional analysis.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Technology Stack
+Frontend: React, TypeScript, Tailwind CSS
 
-# Step 3: Install the necessary dependencies.
-npm i
+AI Model: Deep Learning (CNNs with Transfer Learning)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Backend/API: Flask (for AI inference)
 
-**Edit a file directly in GitHub**
+Hosting: Firebase Hosting
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Development Platform: Lovable.dev (for collaborative editing and rapid prototyping)
 
-**Use GitHub Codespaces**
+Use Cases
+Telemedicine: Remote skin disease screening for patients in underserved areas.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Clinics & Hospitals: AI-powered pre-screening for dermatology departments.
 
-## What technologies are used for this project?
+Research: Analyze large datasets for skin disease trends and model evaluation.
 
-This project is built with:
+Outreach: Deploy in mobile health units for community healthcare.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Contributing
+Contributions are welcome!
 
-## How can I deploy this project?
+Fork this repository.
 
-Simply open [Lovable](https://lovable.dev/projects/2b545cd9-084a-4c62-8c8f-9b5c078bf4cb) and click on Share -> Publish.
+Create a feature branch:
 
-## Can I connect a custom domain to my Lovable project?
+bash
+git checkout -b feature/your-feature
+Commit your changes with clear messages.
 
-Yes, you can!
+Push to your fork and open a Pull Request.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+For collaborative visual editing, visit the Lovable.dev project page.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+License
+This project is licensed under the Apache 2.0 License.
+
+Acknowledgments
+Dermatology datasets: DermNet, HAM10000, and others
+
+Open-source AI and web communities
+
+Lovable.dev for rapid prototyping and collaboration tools
+
+<p align="center"><em>SkinSeva.ai — Advancing accessible and accurate skin health diagnostics through artificial intelligence.</em></p>
